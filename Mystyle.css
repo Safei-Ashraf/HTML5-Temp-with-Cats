@@ -1,0 +1,148 @@
+/*Start Global */
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix{
+    clear: both
+}
+ul{
+    list-style:none;
+}
+/* End Global */
+
+.main{
+    background-color:#333;
+    color: #DDD;
+    padding: 20px;
+    text-align: center;
+
+}
+nav{
+    padding: 10px;
+}
+nav ul{
+    padding: 5px;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block; 
+    padding: 10px;
+}
+nav ul li:after{
+    content: "|";
+    padding: 5px;
+}
+nav ul li:last-child:after{
+content: "";
+}
+
+main{
+    text-align: center;
+    background-color: #EEE;
+    padding: 10px;
+}
+.post{
+    width: 70%;
+    float: left;
+}
+.post article{
+   
+background-color: #f6f6f6;
+border: 1px solid #CCC;
+margin: 10px;   
+}
+
+.post article header{
+    padding: 10px;
+    background-color: #e2e2e2;
+
+}
+.post article p {
+    padding: 10px;
+}
+.post article section details{
+    margin: 10px 0;
+    
+}
+.post article section{
+    padding: 10px;
+}
+.post article section code{
+    background-color: #FFF;
+    padding: 10px;
+    display: block;
+    border: solid 1px #CCC;
+    max-width: 300px;
+}
+.post article section img{
+    width: 120px;
+    height: 120px;
+}
+.post article section figure{
+    border: #d1d1d1 solid 3px;
+    max-width: 530px;
+    text-align: center;
+    background-color: #FFF;
+    margin: 10px;
+    padding: 10px;
+}
+.post article section .html5{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#olpa{
+    width: 200px;
+    height: 50px;
+}
+
+aside{
+float: right;
+width: 30%;
+}
+
+aside section{
+    background-color: #EEE;
+    margin: 10px 10px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+}
+aside h3{
+
+    background-color: #D1D1D1;
+    padding: 10px;
+}
+aside section ul{
+    margin-top: 10px;
+  
+}
+aside section ul li {
+    line-height: 1.5;
+}
+aside section div{
+    margin-top: 10px;
+}
+
+aside h3:hover{
+    background-color:black;
+    color: antiquewhite;
+    padding: 15px;
+    margin: 5px;
+}
+aside input:focus{
+    color: aqua;
+}
+
+footer{
+    background-color: #CCC;
+    padding: 1px;
+    text-align: center;
+}
